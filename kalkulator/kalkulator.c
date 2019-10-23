@@ -5,6 +5,7 @@ float penambahan(float, float);
 float pengurangan(float, float);
 float pembagian(float, float);
 float perkalian(float, float);
+void tambah();
 
 int main (void)
 {
@@ -40,9 +41,17 @@ int main (void)
     {
         printf("operator tidak ditemukan");
     }
-    
+
+
+    tambah();
     return(0);
 }
+
+void tambah()
+{
+    printf("halo");
+}
+
 
 float penambahan(float x, float n)
 {
