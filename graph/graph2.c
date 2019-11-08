@@ -13,7 +13,7 @@ struct node
 void read_graph(struct node *ad[], int no_of_nodes);
 void print_graph(struct node *ad[], int no_of_nodes);
 
-int main()
+void main()
 {
     // inisilisasi variable baru
     int i,j,k,nodes;
@@ -30,7 +30,6 @@ int main()
     read_graph(adj,nodes);
     print_graph(adj,nodes);
     int a = 0;
-    return 0;
 }
 
 // fungsi membaca node
