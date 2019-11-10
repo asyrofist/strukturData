@@ -2,12 +2,12 @@
 #include "stdlib.h"
 #include "assert.h"
 
-typedef struct Graph
+typedef struct 
 {
     int nv;
     int ns;
     struct LLnode** adjList;
-};
+}Graph;
 
 struct Graph *createGraph(int nv);
 void insertEdge(struct Graph *g, int u, int v);
